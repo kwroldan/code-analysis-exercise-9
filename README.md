@@ -39,4 +39,3 @@ function (month){
 * Contains a plausible collection of test cases
 * Outputs are accurately derived from inputs
 * Summary is plausible
-  * Official answer is that it determines the quarter of the year a month occurs in
