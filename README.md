@@ -7,6 +7,11 @@ Your task is to figure out how this code works.
 * Keep coming up with new inputs until you're confident that you know how the function works.
 * Write a summary of what the function does.
 
+*Summary*
+1) The function takes an input `months`, a number data type.
+2) The function checks if the number is less than or equal to 3, and if not, the function checks if the number iless than or equal to 6, then 9, and then finally 12. 
+3) Depending on which came back true, the function returns either `1, 2, 3, or 4`. If none of the statements are true, the function will return `undefined`. 
+
 ```js
 function (month){
   if (month <= 3){
@@ -23,16 +28,16 @@ function (month){
 
 Inputs and outputs should be valid JavaScript values!
 
-| Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+| Input | Output    |
+| ----- | --------- |
+|  3    |  1        | 
+|  7    |  3        | 
+|  13   | undefined |
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This program tells you which quarter the specified month is in.</td>
   </tr>
 </table>
 
